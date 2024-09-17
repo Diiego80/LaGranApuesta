@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura completa de la pantalla */
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: #a0c1b8;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.gothic-title#titulo{
+font-family: 'Ceviche One', cursive;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+    position: relative;  /* Fijar el título en la parte superior */
+    top: 20px;        /* Ajusta la distancia desde la parte superior */
+    left: 50%;        /* Centrar horizontalmente */
+    transform: translateX(-50%);  /* Mover el título hacia la izquierda para que esté centrado */
+    z-index: 1000;    /* Asegura que el título esté sobre todos los demás elementos */
+}
+
+/* Usando solo el id */
+#unique-title {
+    color: red;
+    font-size: 72px;
+  }
+  
+  /* Usando clase e id juntos */
+  .gothic-title#unique-title {
+    color: blue;
+    font-weight: bold;
+  }
+
+  

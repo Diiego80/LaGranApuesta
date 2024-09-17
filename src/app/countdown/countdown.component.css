@@ -1,0 +1,32 @@
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .countdown-box {
+    background-color: #f2e1e1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .countdown-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #6b6b6b;
+  }
+  
+  .countdown-label {
+    font-size: 18px;
+    color: #a5a5a5;
+  }
+  
+  body {
+    background-color: #f4f9f9;
+    font-family: 'Arial', sans-serif;
+  }
