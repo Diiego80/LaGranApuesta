@@ -16,13 +16,13 @@ html, body {
 
 h1 {
   font-size: 48px;
-  color: #a0c1b8;
+  color: #3a3b80;
   margin-bottom: 30px;
   text-align: center;
 }
 .gothic-title#titulo{
-font-family: 'Ceviche One', cursive;
-    color: #4d4d4d;
+    font-family: "Anton", sans-serif;    color: #4d4d4d;
+    font-size: 80px;
     margin-bottom: 20px;
     position: relative;  /* Fijar el título en la parte superior */
     top: 20px;        /* Ajusta la distancia desde la parte superior */
